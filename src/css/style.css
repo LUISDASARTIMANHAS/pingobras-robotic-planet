@@ -1,0 +1,67 @@
+nav {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+body {
+  background-image: url("https://cdn.glitch.global/04efe736-84a8-41d2-920e-0d32a0e71636/robotic%20planet%20fundo.jpeg?v=1680548633327");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: 150px;
+}
+nav .ativo {
+  color: yellow;
+}
+
+.descrincao {
+  background-color: white;
+  font-size: 18px;
+  font-style: normal;
+  text-align: justify;
+  white-space: break-spaces;
+  width: 85%;
+  overflow: hidden;
+  max-width: 95%;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.exposicao {
+  width: 75%;
+  display: table-cell;
+  text-align: center;
+  background-color: transparent;
+}
+
+.exposicao img{
+  height:250px;
+}
+
+@media(max-width: 620px){
+  
+.exposicao img{
+  height:110px;
+}
+  
+}
